@@ -1,0 +1,14 @@
+
+{
+  "name": "Project.Core",
+  "references": [],
+  "optionalUnityReferences": [],
+  "includePlatforms": ["Editor","Windows","Android","OSX","LinuxStandalone"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": []
+}
