@@ -5,7 +5,6 @@ using UnityEngine;
 public class scripAnimation : MonoBehaviour
 {
     public Animator animator;
-    public bool b = false;
 
     void Start()
     {
@@ -22,16 +21,21 @@ public class scripAnimation : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.S))
         {
-            b = !b;
             animator.SetBool("start", true);
-            animator.SetBool("Animation", b);
         }
-        if (Input.GetKeyUp(KeyCode.Space))
+        if (Input.GetKeyUp(KeyCode.S))
         {
-
             animator.SetBool("start", false);
+        }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            animator.SetBool("start2", true);
+        }
+        if (Input.GetKeyUp(KeyCode.D))
+        {
+            animator.SetBool("start2", false);
         }
     }
 }
