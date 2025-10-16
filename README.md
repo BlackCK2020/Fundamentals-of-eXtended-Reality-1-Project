@@ -1,9 +1,9 @@
 # Dinosaur Skeleton Museum – Unity Project
 
 ## Team Members
-- **[Cossard Keryan]** – 3D model research & dinosaur interaction system  
-- **[Mate 1 Name]** – Environment design & lighting setup  
-- **[Mate 2 Name]** – Audio implementation & UI development  
+- **[Zhang Peiwen]** – Environment design & lighting setup  
+- **[Tang Bill]** – Audio implementation & UI development  
+- **[Cossard Keryan]** – 3D model research & dinosaur interaction system
 
 ---
 
@@ -30,8 +30,8 @@ Users can explore the environment, interact with buttons, and experience dynamic
 
 2. **Physics System:**  
    - Each dinosaur bone has a **Rigidbody** and **MeshCollider** component.  
-   - When gravity is enabled, Unity’s physics engine simulates realistic bone movement.  
+   - When gravity is enabled, Unity’s physics engine simulates realistic bone movement this allows the dinosaur's bones fall down.  
 
 3. **3D Models:**  
-   - Museum building and dinosaur skeletons were sourced from online 3D models.  
+   - Museum environment and dinosaur skeletons were sourced from online 3D models.  
 
