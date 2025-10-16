@@ -25,7 +25,6 @@ Users can explore the environment, interact with buttons, and experience dynamic
 1. **User Interface (UI):**  
    - The scene contains multiple interactive buttons:
      - *Light Button* → toggles the main lighting in the scene.  
-     - *Music Button* → plays or stops background music.  
      - *Gravity Button* → activates physics on the dinosaur skeleton, making bones fall.  
 
 2. **Physics System:**  
